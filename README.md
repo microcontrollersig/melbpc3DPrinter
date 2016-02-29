@@ -10,8 +10,8 @@ Tested with lastest Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/
 NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/wiki/index.php/Download#Arduino_IDE). Later versions won't work on the GT2560.
 
 ## Software
-Pronterface to operate printer
-Slic3r or Cura to slice stl files to gcode
+- Pronterface to operate printer
+- Slic3r or Cura to slice stl files to gcode
 
 Alternatively, there is a Raspberry Pi running Octpi.
 Octopi has advanced functionality like taking timelapse video, in addition to slicing STL files, printing gcode and operating 3D printer. 
