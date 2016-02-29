@@ -20,7 +20,7 @@ If you have Bonjour Print Services installed, you can access the webpage from ht
 Remember to plug the USB cable from GT2560 board to one of the 4 USB ports on the Pi.
 
 ## Tips and Tricks
-1. Latest version of Marlin has a feature called Mesh Bed Levelling. From the LCD, Prepare->Level Bed initiates a guide levelling/tramming procedure. Use  the knob to lower Z-Axis and the old paper routine, once you feel it's at the right level, single click on the knob, and it will proceed to next point.
+1. Latest version of Marlin has a feature called Mesh Bed Levelling. From the LCD, Prepare->Level Bed initiates a guide levelling/tramming procedure. Use  the knob to lower Z-Axis and the old paper routine, once you feel it's at the right level, single click on the knob, and it will proceed to next point. If you want to save the mesh, issue a M500 (save to EEPROM). Then to view the details, issue a G29 (either from Pronterface or Octopi). 
 
 
 
