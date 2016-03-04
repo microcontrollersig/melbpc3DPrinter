@@ -1,7 +1,9 @@
 # Documentation for MelbPC 3D Printer
 
 Printer resembles a Geeetech Prusa I3 Pro B.
+
 Uses a GT2560 electronics board.
+
 In addition, we have purchased a webcam and a raspberry pi(optional).
 
 ## Firmware
