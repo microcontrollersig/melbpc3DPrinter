@@ -1,6 +1,6 @@
 # Documentation for MelbPC 3D Printer
 
-Printer resembles a Geeetech Prusa I3 Pro B.
+Printer resembles a Geeetech Prusa I3 Pro B (http://www.geeetech.com/wiki/index.php/Acrylic_Prusa_I3_build_instruction%288mm%29).
 
 Uses a GT2560 electronics board.
 
