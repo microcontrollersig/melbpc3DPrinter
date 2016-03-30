@@ -25,7 +25,7 @@ Alternatively, there is a Raspberry Pi running Octpi.
 Octopi has advanced functionality like taking timelapse video, in addition to slicing STL files, printing gcode and operating 3D printer. 
 
 
-You can use Angry IP Scanner to determine IP address of Pi. Alternatively, you can install Bonjour Print Services, then access Pi with http://octopi.local (zeroconf)
+You can use Angry IP Scanner to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
 
 ## Tips and Tricks
 1. Latest version of Marlin has a feature called Mesh Bed Levelling. From the LCD, Prepare->Level Bed initiates a guided levelling/tramming procedure. Use  the knob to lower Z-Axis and the old paper routine, once you feel it's at the right level, single click on the knob, and it will proceed to next point. If you want to save the mesh, issue a M500 (save to EEPROM). Then to view the stored mesh values, issue a G29 (either from Pronterface or Octopi). 
