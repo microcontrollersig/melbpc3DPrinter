@@ -1,12 +1,14 @@
 # Documentation for MelbPC 3D Printer
 
-Printer resembles a Geeetech Prusa I3 Pro B (http://www.geeetech.com/wiki/index.php/Acrylic_Prusa_I3_build_instruction%288mm%29).
+Printer resembles a Geeetech Prusa I3 Pro B 
+http://www.geeetech.com/wiki/index.php/Acrylic_Prusa_I3_build_instruction%288mm%29
 
-Uses a GT2560 electronics board(http://www.geeetech.com/wiki/index.php/GT2560).
+Uses a GT2560 electronics board
+http://www.geeetech.com/wiki/index.php/GT2560
 
-In addition, we have purchased a webcam and a raspberry pi(optional).
+In addition, we have purchased a webcam and a raspberry pi.
 
-## Firmware
+## Firmware on GT2650
 Tested with lastest Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
 
 
@@ -17,20 +19,27 @@ The Configuration.h provided by this repo contains the correct parameters for th
 
 
 ## Software 
-- Pronterface to operate printer
-- Slic3r or Cura to slice stl files to gcode
 
-## Raspberry Pi
-Alternatively, there is a Raspberry Pi running Octpi.
-Octopi has advanced functionality like taking timelapse video, in addition to slicing STL files, printing gcode and operating 3D printer. 
+### Steps involved in printing
+- Need to produce an STL file for your print. Can source it from thingiverse.com, or make it yourself using tools such as Sketch, tinkercad etc.
+- need to use a slicer program (Slic3r, Cura) to convert the STL file to a GCODE file.
+- Then use another program to operate printer and send print jobs
+
+### Option 1
+- Use Pronterface to operate the printer
+  https://github.com/kliment/Printrun
+- Use Pronterface to manually operate the 3D printer.
+- Pronterface uses Slic3r for slicing. You will first need to configure Slic3r settings. Use the settings from this repository. Then simply load an STL file, then click Print.
+
+### Option 2
+There is a Raspberry Pi 2 running Octpi.Octopi has advanced functionality like taking timelapse video and automatically uploading it to youtube. It has a web interface which can be accessed on the local network.
 
 
 You can use Angry IP Scanner to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
 
 ## Tips and Tricks
-1. Latest version of Marlin has a feature called Mesh Bed Levelling. From the LCD, Prepare->Level Bed initiates a guided levelling/tramming procedure. Use  the knob to lower Z-Axis and the old paper routine, once you feel it's at the right level, single click on the knob, and it will proceed to next point. If you want to save the mesh, issue a M500 (save to EEPROM). Then to view the stored mesh values, issue a G29 (either from Pronterface or Octopi). 
 
-2. From downstairs:
+From downstairs:
 
 http://192.168.0.105 (provided there is an ethernet connection to pi, octoprint interface. Remember to plug the USB cable from GT2560 board to one of the 4 USB ports on the Pi.)
 
