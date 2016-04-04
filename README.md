@@ -10,6 +10,14 @@ http://www.geeetech.com/wiki/index.php/GT2560
 
 In addition, we have purchased a webcam and a raspberry pi.
 
+## Files in the Repository
+slic3r.ini: These Slic3r settings work well for simple prints. In Slic3r, File->Load Config
+
+cura.ini: My first go at getting Cura settings right. Needs improvement.
+
+Configuration.h: The main configuration file for Marlin.
+
+
 ## Firmware on GT2650
 Tested with lastest Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
 
@@ -17,7 +25,7 @@ Tested with lastest Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/
 NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/wiki/index.php/Download#Arduino_IDE). Later versions won't work on the GT2560.
 
 
-The Configuration.h provided by this repo contains the correct parameters for the 3D Printer.
+
 
 
 ## Software 
