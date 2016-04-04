@@ -42,7 +42,7 @@ NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/w
 - Pronterface uses Slic3r for slicing. You will first need to configure Slic3r settings. Use the settings from this repository. Then simply load an STL file, then click Print.
 
 ### Option 2
-There is a Raspberry Pi 2 running Octpi.Octopi has advanced functionality like taking timelapse video and automatically uploading it to youtube. It has a web interface which can be accessed on the local network.
+There is a Raspberry Pi 2 running Octpi.Octoprint has advanced functionality like taking timelapse video and automatically uploading it to youtube. It has a web interface which can be accessed on the local network.
 
 
 You can use Angry IP Scanner to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
