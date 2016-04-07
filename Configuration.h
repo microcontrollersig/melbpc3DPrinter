@@ -419,8 +419,8 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = false; // set to true to invert the l
 //=========================== Manual Bed Leveling ===========================
 //===========================================================================
 
-#define MANUAL_BED_LEVELING  // Add display menu option for bed leveling.
-#define MESH_BED_LEVELING    // Enable mesh bed leveling.
+//#define MANUAL_BED_LEVELING  // Add display menu option for bed leveling.
+//#define MESH_BED_LEVELING    // Enable mesh bed leveling.
 
 #if ENABLED(MANUAL_BED_LEVELING)
   #define MBL_Z_STEP 0.025  // Step size while manually probing Z axis.
