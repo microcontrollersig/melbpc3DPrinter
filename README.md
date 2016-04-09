@@ -70,4 +70,5 @@ http://192.168.81.39:8080 (webcam)
  
 SSH available also with user/passwd octopi/octopi 
 
-
+#Youtube Channel
+https://www.youtube.com/channel/UClFt878ZUMr_Nmuxnf45obg
