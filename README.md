@@ -19,7 +19,7 @@ Configuration.h: The main configuration file for Marlin.
 
 
 ## Firmware on GT2650
-Tested with latest Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
+Tested with Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
 
 
 NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/wiki/index.php/Download#Arduino_IDE). Later versions won't work on the GT2560.
