@@ -44,6 +44,7 @@ NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/w
 ### Option 2
 There is a Raspberry Pi 2 running Octpi.Octoprint has advanced functionality like taking timelapse video and automatically uploading it to youtube. It has a web interface which can be accessed on the local network. For this to work, ensure Pi is powered, Ethernet and USB from controller board is connected.
 
+Octoprint uses Cura to do the slicing. You can find the Cura settings here https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura_experimental.ini
 
 You can use Advanced IP Scanner (http://filehippo.com/download_angry_ip_scanner/) to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
 
