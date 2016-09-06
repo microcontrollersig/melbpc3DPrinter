@@ -15,18 +15,14 @@ slic3r.ini: These Slic3r settings work well for simple prints. In Slic3r, File->
 
 cura_experimental.ini: These settings produce good results for printing with Octoprint. Created using cura 15.04 . Must use this version because cura changed format from INI to json on later versions of cura.
 
-Configuration.h: The main configuration file for Marlin.
+Configuration.h: The main configuration file for Marlin (based on original printer firmware http://www.geeetech.com/wiki/index.php/Download#Firmware )
 
 
 ## Firmware on GT2650
 Tested with Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
-
+using the Configuration.h in this repository.
 
 NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/wiki/index.php/Download#Arduino_IDE). Later versions won't work on the GT2560.
-
-
-
-
 
 ## Software 
 
@@ -55,7 +51,6 @@ From downstairs:
 http://192.168.0.105 (provided there is an ethernet connection to pi. Remember to plug the USB cable from GT2560 board to one of the 4 USB ports on the Pi.)
 
 http://192.168.0.105:8080 (webcam)
-
 
 
 From upstairs:
