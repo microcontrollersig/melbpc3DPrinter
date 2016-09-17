@@ -63,6 +63,9 @@ https://192.168.81.39 (or whatever the IP address of the router attached to the 
 
 http://192.168.81.39:8080 (webcam)
 
+#Place to Buy Filament
+Plastrude (Bayswater)
+http://shop.lybina.com/
  
 SSH available also with user/passwd pi/raspberry
 
