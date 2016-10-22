@@ -58,10 +58,10 @@ From upstairs:
 Port forwarding has been enabled on the router attached to the Pi.
 
 
-https://192.168.81.39 (or whatever the IP address of the router attached to the Pi is, again use Advanced IP Scanner and look for the link below, which shows up on port 8080 mjpg-streamer)
+https://192.168.81.122
 
 
-http://192.168.81.39:8080 (webcam)
+http://192.168.81.122:8080 (webcam)
 
 #Place to Buy Filament
 Plastrude (Bayswater)
