@@ -47,7 +47,7 @@ You can use Advanced IP Scanner (http://filehippo.com/download_angry_ip_scanner/
 ## Tips and Tricks for Octopi/octoprint
 
 Emergency webcam URL:
-http://192.168.0.105:8080/javascript_simple.html
+http://192.168.81.122:8080/?action=stream
 
 From downstairs:
 
