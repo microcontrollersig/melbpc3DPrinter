@@ -46,6 +46,9 @@ You can use Advanced IP Scanner (http://filehippo.com/download_angry_ip_scanner/
 
 ## Tips and Tricks for Octopi/octoprint
 
+Emergency webcam URL:
+http://192.168.0.105:8080/javascript_simple.html
+
 From downstairs:
 
 http://192.168.0.105 (provided there is an ethernet connection to pi. Remember to plug the USB cable from GT2560 board to one of the 4 USB ports on the Pi.)
