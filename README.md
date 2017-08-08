@@ -16,6 +16,11 @@ In addition, we have purchased a webcam and a raspberry pi.
 ### Marlin-1.1.4/Configuration.h and Marlin-1.1.4/Configuration_adv.h
 To use these settings from fresh, download latest Arduino and Marlin 1.1.4 and then replace these two files.
 
+## 3D Printer Setup 
+There is now a dedicated wireless router connected to the Raspberry Pi. A wireless network called 3D Printer is now available.
+From there you can access Octoprint (http://192.168.0.105) to operate the Printer and direct send print jobs from latest version
+of Cura using the Cura Profile https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura-2.6.2-infill30.curaprofile
+
 ## Software 
 
 ### Octoprint
@@ -23,10 +28,8 @@ Octorprint is running on a Raspberry Pi 2. It is used to operate the printer.
 
 Octoprint uses Cura to do the slicing. You can find the Cura settings here https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura_experimental.ini
 
-UPDATE: Latest Cura can send print jobs directly to Octoprint. 
-https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura-2.6.2-infill30.curaprofile
-
 You can use Advanced IP Scanner (http://filehippo.com/download_angry_ip_scanner/) to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
+
 
 ## Tips and Tricks for Octopi/octoprint
 
