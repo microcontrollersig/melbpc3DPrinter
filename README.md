@@ -1,6 +1,8 @@
 # Documentation for MelbPC 3D Printer
 
-Printer resembles a Geeetech Prusa I3 Pro B 
+Printer is a CTC Prusa I3 Pro B.
+
+It is a knockoff of Geeetech Prusa I3 Pro B. 
 
 http://www.geeetech.com/wiki/index.php/Acrylic_Prusa_I3_build_instruction%288mm%29
 
@@ -10,37 +12,19 @@ http://www.geeetech.com/wiki/index.php/GT2560
 
 In addition, we have purchased a webcam and a raspberry pi.
 
-## Files in the Repository
-slic3r.ini: These Slic3r settings work well for simple prints. In Slic3r, File->Load Config
-
-cura_experimental.ini: These settings produce good results for printing with Octoprint. Created using cura 15.04 . Must use this version because cura changed format from INI to json on later versions of cura.
-
-Configuration.h: The main configuration file for Marlin (based on original printer firmware http://www.geeetech.com/wiki/index.php/Download#Firmware )
-
-
-## Firmware on GT2650
-Tested with Marlin version 1.1.0-RC3 (https://github.com/MarlinFirmware/Marlin/releases)
-using the Configuration.h in this repository.
-
-NB: Must use Arduino IDE version 1.0.1 (Available from http://www.geeetech.com/wiki/index.php/Download#Arduino_IDE). Later versions won't work on the GT2560.
+## Relevant Files in the Repository
+### Marlin-1.1.4/Configuration.h and Marlin-1.1.4/Configuration_adv.h
+To use these settings from fresh, download latest Arduino and Marlin 1.1.4 and then replace these two files.
 
 ## Software 
 
-### Steps involved in printing
-- Need to produce an STL file for your print. Can source it from thingiverse.com, or make it yourself using tools such as Sketchup,Freecad, Solidworks, 123d, tinkercad etc.
-- need to use a slicer program (Slic3r, Cura) to convert the STL file to a GCODE file.
-- Then use another program to operate printer and send print jobs
-
-### Option 1
-- Use Pronterface to operate the printer
-  https://github.com/kliment/Printrun
-- Pronterface uses Slic3r for slicing. You will first need to configure Slic3r settings. Use the settings from this repository. Then simply load an STL file, then click Print.
-- Requires directly connecting to controlled board using USB to PC.
-
-### Option 2
-There is a Raspberry Pi 2 running Octpi.Octoprint has advanced functionality like taking timelapse video and automatically uploading it to youtube. It has a web interface which can be accessed on the local network. For this to work, ensure Pi is powered, Ethernet and USB from controller board is connected.
+### Octoprint
+Octorprint is running on a Raspberry Pi 2. It is used to operate the printer.
 
 Octoprint uses Cura to do the slicing. You can find the Cura settings here https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura_experimental.ini
+
+UPDATE: Latest Cura can send print jobs directly to Octoprint. 
+https://github.com/microcontrollersig/melbpc3DPrinter/blob/master/cura-2.6.2-infill30.curaprofile
 
 You can use Advanced IP Scanner (http://filehippo.com/download_angry_ip_scanner/) to determine IP address of Pi. Alternatively, you can install Bonjour Print Services (https://support.apple.com/kb/DL999?locale=en_US), then access Pi with http://octopi.local (zeroconf)
 
@@ -69,6 +53,9 @@ http://192.168.81.122:8080 (webcam)
 #Place to Buy Filament
 Plastrude (Bayswater)
 http://shop.lybina.com/
+
+Bilby
+Aururum
  
 SSH available also with user/passwd pi/raspberry
 
